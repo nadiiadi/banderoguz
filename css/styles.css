@@ -1,0 +1,281 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-page-left-side {
+    width: 50%;
+}
+.gus-img {
+    width: 50%;
+}
+.main-page {
+    background: linear-gradient(90deg, #FCFEFE 0%, #A5DEFF 100%);
+}
+.main-page-text-container {
+    border-radius: 40px;
+background: #FFF;
+padding-top: 60px;
+padding-left: 60px;
+padding-right: 60px;
+padding-bottom: 60px;
+box-sizing: border-box;
+}
+.main-page-btn {
+    border-radius: 8px;
+background: #FF6B0A;
+border: none;
+color: #FFF;
+padding-top: 12px;
+padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 12px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+cursor: pointer;
+}
+.logo {
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+.main-page-text-hello {
+    color: #1B1D1F;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+.main-page-text-title {
+    color: #1B1D1F;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.main-page-text-descr {
+    color: #1B1D1F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.gus-facts {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 100px;
+}
+.gus-facts-descr {
+    color: #1B1D1F;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+width: 772px;
+margin: auto;
+margin-top: 32px;
+margin-bottom: 24px;
+}
+.gus-facts-item-img {
+    width: 100%;
+}
+.gus-facts-item-title {
+    color: #1B1D1F;
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+margin-top: 8px;
+margin-bottom: 32px;
+}
+.gus-facts-item-descr {
+    color: #1B1D1F;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin: 0;
+}
+.gus-facts-item {
+    width: 30%;
+}
+.gus-facts-title {
+    color: #1B1D1F;
+font-size: 48px;
+font-weight: 600;
+line-height: 72px;
+margin-top: 24px;
+margin-bottom: 0;
+}
+
+.form-page {
+    background: linear-gradient(90deg, #FCFEFE 0%, #A5DEFF 100%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.form {
+    border-radius: 40px;
+background: #FFF;
+width: 573px;
+padding-top: 32px;
+padding-bottom: 60px;
+padding-left: 60px;
+padding-right: 60px;
+box-sizing: border-box;
+margin: auto;
+text-align: center;
+}
+.form-title {
+    color: #1B1D1F;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+margin-top: 32px;
+margin-bottom: 12px;
+}
+.form-descr {
+    color: #1B1D1F;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 24px;
+}
+.form-input {
+    border-radius: 8px;
+border: 1px solid var(--blue, #005BBB);
+background: #FFF;
+width: 453px;
+height: 60px;
+color: #1B1D1F;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+padding: 0;
+margin: 0;
+}
+.form-label {
+    color: #1B1D1F;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 8px;
+}
+.form-field {
+    text-align: left;
+    margin-bottom: 24px;
+}
+.form-btn {
+    border-radius: 8px;
+background: #FF6B0A;
+border: none;
+color: #FFF;
+padding-top: 12px;
+padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 12px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+cursor: pointer;
+margin-top: 24px;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+@media screen and (max-width: 1170px) {
+    .wrapper{
+        width: 100%;
+    }
+    .main-page-left-side{
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .main-page-text-container{
+        padding: 20px;
+    }
+    .main-page-text-title{
+        font-size: 44px;
+    }
+    .main-page-text-hello{
+        margin-bottom: 10px;
+    }
+    .gus-img{
+        align-self: flex-end;
+    }
+}
+@media screen and (max-width: 785px) {
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-page-left-side{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-page-text-container{
+        text-align: center;
+    }
+    .gus-facts-descr{
+        width: 100%;
+    }
+    .gus-facts{
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .gus-facts-item{
+        width: 80%;
+    }   
+}
+@media screen and (max-width: 600px){
+    .form{
+        width: 100%;
+    }
+    .form-page{
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .form-input{
+        width: 100%;
+    }
+    .gus-img{
+        width: 100%;
+    }
+    .gus-facts-item{
+        width: 100%;
+    }
+    .gus-facts-title{
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width: 420px){
+    .gus-facts-title{
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
